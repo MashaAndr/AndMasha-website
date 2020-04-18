@@ -1,7 +1,7 @@
 @font-face {
 
-  font-family: 'NeueHaasUnicaPro-Medium.otf';
-  src: url('../fonts/NeueHaasUnicaPro-Medium.otf');
+  font-family: 'NeueHaasUnicaPro-Regular.otf';
+  src: url('../fonts/NeueHaasUnicaPro-Regular.otf');
 }
 
 .body {
@@ -14,7 +14,7 @@
   margin-top: 40px;
   line-height: 43px;
   font-size: 45px;
-  font-family: 'NeueHaasUnicaPro-Medium.otf';
+  font-family: 'NeueHaasUnicaPro-Regular.otf';
   text-align:center;
   color: SteelBlue;
 }
