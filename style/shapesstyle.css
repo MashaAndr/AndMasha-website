@@ -1,17 +1,9 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 .wrapper {
   height: 100%;
   width:100%;
   padding: 30px 10px 10px 10px;
   font-size: 185pt;
   text-align: center;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: auto; */
 }
 
 .clockbox {
@@ -23,9 +15,6 @@
 @font-face {
  font-family: 'Proezdnoy';
  src: url('../fonts/Proezdnoy.otf');
-/*
- font-family: 'FavoritPro';
- src: url('../fonts/FavoritPro-Book.otf'); */
 
 }
 
@@ -99,23 +88,3 @@
 .links {
     font-family: Helvetica;
     font-size: 20pt;
-
-/* body {
-     background-color: #fff;
-     -webkit-animation: random 60s infinite;
-     animation: random 60s infinite;
-}
-@keyframes  random {
-    15% { background-color: cornflowerblue; }
-    30% { background-color: lightgray; }
-    45% { background-color: aliceblue; }
-    60% { background-color: lightsteelblue; }
-    75% { background-color: lightcyan; }
-} */
-
-
-/* @keyframes mymove{
-    form{background-color: #38dc58; }
-    to{background-color: #9b40f1;}
-}
-YOU CAN USE LIKE IT TOO :d
