@@ -1,71 +1,68 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 .wrapper {
   height: 100%;
   width:100%;
-  padding: 30px 10px 10px 10px;
-  font-size: 185pt;
-  text-align: center;
-}
-
-.clockbox {
-  display: flex;
+  display: inline-block
+  padding: 20px 20px 20px 20px;
+  text-align: center ;
+  /* display: flex;
   flex-direction: row;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  flex-basis: auto; */
 }
 
 @font-face {
  font-family: 'Proezdnoy';
  src: url('../fonts/Proezdnoy.otf');
+/*
+ font-family: 'FavoritPro';
+ src: url('../fonts/FavoritPro-Book.otf'); */
 
 }
 
-.clockbox-date {
+.clockbox {
   text-align:center;
   font-family: 'Proezdnoy';
+  font-size: 240px;
   color: orangered;
-  flex-grow:1;
+  margin-top:40px;
 }
 
 .clockbox-month {
   text-align:center;
   font-family: 'Proezdnoy';
-  color: orangered;
-  flex-grow:2;
+  font-size: 240px;
+  color: black;
+  margin-top:20px;
 }
 
-.clockbox-year {
-  text-align:center;
-  font-family: 'Proezdnoy';
-  color: orangered;
-  flex-grow:3;
+/* body {
+     background-color: #fff;
+     -webkit-animation: random 60s infinite;
+     animation: random 60s infinite;
 }
+@keyframes  random {
+    15% { background-color: cornflowerblue; }
+    30% { background-color: lightgray; }
+    45% { background-color: aliceblue; }
+    60% { background-color: lightsteelblue; }
+    75% { background-color: lightcyan; }
+} */
 
-.clockbox-hour {
-  text-align:center;
-  font-family: 'Proezdnoy';
-  color: orangered;
-  flex-grow:4;
-}
 
-.clockbox-min {
-  text-align:center;
-  font-family: 'Proezdnoy';
-  color: orangered;
-  flex-grow:5;
+/* @keyframes mymove{
+    form{background-color: #38dc58; }
+    to{background-color: #9b40f1;}
 }
+YOU CAN USE LIKE IT TOO :d
 
-.clockbox-sec {
-  text-align:center;
-  font-family: 'Proezdnoy';
-  color: orangered;
-  flex-grow:6 ;
-}
-
-.links {
-  font-family: Helvetica;
-  font-size: 15pt;
-}
 
 .links a {
+  font-family: Helvetica;
+  font-size: 20px;
   text-decoration: none;
   color: lightgrey;
 }
@@ -75,16 +72,3 @@
   color: blue;
 
 }
-
-@media (max-width:640px) {
-.clockbox {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    font-size: 105pt;
-  }
-}
-
-.links {
-    font-family: Helvetica;
-    font-size: 20pt;
