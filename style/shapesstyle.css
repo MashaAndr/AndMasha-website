@@ -5,13 +5,15 @@
 .wrapper {
   height: 100%;
   width:100%;
-  display: inline-block
-  padding: 20px 20px 20px 20px;
-  text-align: center ;
-  /* display: flex;
+  padding: 30px 10px 10px 10px;
+  font-size: 185pt;
+  text-align: center;
+}
+
+.clockbox {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: auto; */
+  flex-flow: wrap;
 }
 
 @font-face {
@@ -23,21 +25,76 @@
 
 }
 
-.clockbox {
+.clockbox-date {
   text-align:center;
   font-family: 'Proezdnoy';
-  font-size: 240px;
   color: orangered;
-  margin-top:40px;
+  flex-grow:1;
 }
 
 .clockbox-month {
   text-align:center;
   font-family: 'Proezdnoy';
-  font-size: 240px;
-  color: black;
-  margin-top:20px;
+  color: orangered;
+  flex-grow:2;
 }
+
+.clockbox-year {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: orangered;
+  flex-grow:3;
+}
+
+.clockbox-hour {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: orangered;
+  flex-grow:4;
+}
+
+.clockbox-min {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: orangered;
+  flex-grow:5;
+}
+
+.clockbox-sec {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: orangered;
+  flex-grow:6 ;
+}
+
+.links {
+  font-family: Helvetica;
+  font-size: 15pt;
+}
+
+.links a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: blue;
+
+}
+
+@media (max-width:640px) {
+.clockbox {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    font-size: 105pt;
+  }
+}
+
+.links {
+    font-family: Helvetica;
+    font-size: 20pt;
 
 /* body {
      background-color: #fff;
@@ -58,17 +115,3 @@
     to{background-color: #9b40f1;}
 }
 YOU CAN USE LIKE IT TOO :d
-
-
-.links a {
-  font-family: Helvetica;
-  font-size: 20px;
-  text-decoration: none;
-  color: lightgrey;
-}
-
-.links a:hover {
-  text-decoration: none;
-  color: blue;
-
-}
