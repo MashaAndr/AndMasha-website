@@ -180,11 +180,11 @@
     text-decoration: none !important;
   }
    
-  .smalltext p{
+  .smalltext {
    font-size: 125%;
    line-height: 100%;
    text-decoration: none !important;
-   
+  }
    
   .ticketbookpagebox{
     display: inline;
