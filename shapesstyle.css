@@ -53,48 +53,48 @@
 }
 
 @font-face {
- font-family: 'Proezdnoy';
+ font-family: 'Proezdnoy.otf';
  src: url('fonts/Proezdnoy.otf');
 }
 
 .clockbox-date {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:1;
 }
 
 .clockbox-month {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:2;
 }
 
 .clockbox-year {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:3;
 }
 
 .clockbox-hour {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:4;
 }
 
 .clockbox-min {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:5;
 }
 
 .clockbox-sec {
   text-align:center;
-  font-family: 'Proezdnoy';
+  font-family: 'Proezdnoy.otf';
   color: black;
   flex-grow:6 ;
 }
