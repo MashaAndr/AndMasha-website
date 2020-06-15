@@ -175,7 +175,6 @@
 
   .archivebox p{
     font-size: 255%;
-    width: 245%;
     line-height: 110%;
   }
 
@@ -194,7 +193,4 @@
     font-family: 'PragmaticaBookReg.otf';
     line-height: 110%;
   }
-
-
-
 }
