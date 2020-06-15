@@ -177,7 +177,10 @@
     font-size: 255%;
     line-height: 110%;
   }
-
+  .smalltext {
+   font-size: 125%;
+   line-height: 100%;
+   
   .ticketbookpagebox{
     display: inline;
   }
