@@ -31,6 +31,7 @@
 .item a{
   color: blue;
   text-decoration: none;
+
 }
 .item a:hover {
   color: black;
@@ -134,17 +135,20 @@
   }
 
   .box a{
-    line-height: 22px;
+    font-size: 255%;
+    line-height: 110%;
   }
 
   .box p{
-    line-height: 22px;
+    font-size: 255%;
+    line-height: 110%;
   }
 
   .item img {
     width: 93vw;
     align-items: center;
     padding-bottom: 50px;
+
   }
 
   .archivebox{
@@ -165,11 +169,14 @@
   }
 
   .archivebox a{
-    line-height: 22px;
+    font-size: 255%;
+    line-height: 110%;
   }
 
   .archivebox p{
-    line-height: 22px;
+    font-size: 255%;
+    width: 245%;
+    line-height: 110%;
   }
 
   .ticketbookpagebox{
