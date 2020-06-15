@@ -110,7 +110,13 @@
     width: 100%;
     line-height: 110%;
     }
-
+    
+.item a {
+    font-size: 255%;
+    width: 100%;
+    line-height: 110%;
+    }
+    
 .clockbox {
     font-size: 165pt;
     line-height: 155pt;
