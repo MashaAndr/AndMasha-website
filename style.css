@@ -177,7 +177,8 @@
     font-size: 255%;
     line-height: 110%;
   }
-  .smalltext {
+   
+  .smalltext p{
    font-size: 125%;
    line-height: 100%;
    
