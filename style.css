@@ -175,7 +175,7 @@
   }
 
   .archivebox p{
-    font-size: 255%;
+    font-size: 125%;
     line-height: 110%;
     text-decoration: none !important;
   }
@@ -193,7 +193,7 @@
   .ticketbookpageitem {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 45px;
+    padding-top: 30px;
     }
 
   .ticketbookpageitem a {
