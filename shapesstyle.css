@@ -1,12 +1,7 @@
-@font-face {
- font-family: 'PragmaticaBookReg.otf';
- src: url('fonts/PragmaticaBookReg.otf');
-}
-
 .box {
   display: inline;
   margin: 0px;
-  font-family: 'PragmaticaBookReg.otf';
+  font-family: Helvetica;
   font-size: 18px;
   line-height: 20px;
   color: blue;
@@ -23,7 +18,7 @@
 .item a{
   color: blue;
   width: 33%;
-  font-family: 'PragmaticaBookReg.otf';
+  font-family: Helvetica;
   text-decoration: none;
 }
 .item a:hover {
@@ -33,7 +28,7 @@
 .item p{
   color: blue;
   width: 33%;
-  font-family: 'PragmaticaBookReg.otf';
+  font-family: Helvetica';
   text-decoration: none;
 }
 
@@ -53,48 +48,48 @@
 }
 
 @font-face {
- font-family: 'Proezdnoy.otf';
+ font-family: 'Proezdnoy';
  src: url('fonts/Proezdnoy.otf');
 }
 
 .clockbox-date {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:1;
 }
 
 .clockbox-month {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:2;
 }
 
 .clockbox-year {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:3;
 }
 
 .clockbox-hour {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:4;
 }
 
 .clockbox-min {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:5;
 }
 
 .clockbox-sec {
   text-align:center;
-  font-family: 'Proezdnoy.otf';
+  font-family: 'Proezdnoy';
   color: black;
   flex-grow:6 ;
 }
@@ -111,8 +106,8 @@
     }
 
 .item p {
-    width: 100%;
-    line-height: 22px;
+    width: 245%;
+    line-height: 110%;
     }
 
 .clockbox {
