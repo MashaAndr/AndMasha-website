@@ -1,0 +1,143 @@
+@font-face {
+ font-family: 'PragmaticaBookReg.otf';
+ src: url('../fonts/PragmaticaBookReg.otf');
+}
+
+.box {
+  display: inline;
+  margin: 0px;
+  font-family: 'PragmaticaBookReg.otf';
+  font-size: 18px;
+  line-height: 20px;
+  color: blue;
+}
+
+.item {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  color: blue;
+}
+
+.item a{
+  color: blue;
+  width: 33%;
+  font-family: 'PragmaticaBookReg.otf';
+  text-decoration: none;
+}
+.item a:hover {
+  color: black;
+}
+
+.item p{
+  color: blue;
+  width: 33%;
+  font-family: 'PragmaticaBookReg.otf';
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100vw;
+  padding: 30px 30px 30px 30px;
+  font-size: 180pt;
+  line-height: 150pt;
+  text-align: center;
+}
+
+.clockbox {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+@font-face {
+ font-family: 'Proezdnoy';
+ src: url('../fonts/Proezdnoy.otf');
+}
+
+.clockbox-date {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:1;
+}
+
+.clockbox-month {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:2;
+}
+
+.clockbox-year {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:3;
+}
+
+.clockbox-hour {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:4;
+}
+
+.clockbox-min {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:5;
+}
+
+.clockbox-sec {
+  text-align:center;
+  font-family: 'Proezdnoy';
+  color: black;
+  flex-grow:6 ;
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 680px){
+
+.item {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    }
+
+.item p {
+    width: 100%;
+    line-height: 22px;
+    }
+
+.clockbox {
+    font-size: 165pt;
+    line-height: 155pt;
+    }
+
+}
+
+body {
+     background-color: #fff;
+     -webkit-animation: random 60s infinite;
+     animation: random 60s infinite;
+}
+@keyframes  random {
+    15% { background-color: cornflowerblue; }
+    30% { background-color: #CDCCFF; }
+    45% { background-color: aliceblue; }
+    60% { background-color: lightsteelblue; }
+    75% { background-color: lightcyan; }
+}
+
+
+/* @keyframes mymove{
+    form{background-color: #38dc58; }
+    to{background-color: #9b40f1;}
+}
+YOU CAN USE LIKE IT TOO :d
