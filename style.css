@@ -198,5 +198,8 @@
 
   .ticketbookpageitem a {
     font-family: 'PragmaticaBookReg.otf';
+    font-size: 255%;
+    line-height: 110%;
+    text-decoration: none !important;
   }
 }
